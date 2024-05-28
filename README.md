@@ -1,12 +1,12 @@
 # Student
 
-Create an application with Restful APIs using
+**Create an application with Restful APIs using
 Springboot for CRUD operation to a TABLE of STUDENT(s)
-in a School in a MySqlDB
+in a School in a MySqlDB**
 
-END POINT URI AND PARAMETER:-
+**END POINT URI AND PARAMETER:-**
 
-create data with student.
+**create data with student.**
 http://localhost:8080/api/v1/student/saveStudent
 
 {
@@ -19,13 +19,13 @@ http://localhost:8080/api/v1/student/saveStudent
 }
 
 ---------------------------------------------------
-fetching data with student
-http://localhost:8080/api/v1/student/byId/1
-http://localhost:8080/api/v1/student/byName/XYZ
-http://localhost:8080/api/v1/student/byClass/java
+**fetching data with student**
+http://localhost:8080/api/v1/student/byId/1,
+http://localhost:8080/api/v1/student/byName/XYZ,
+http://localhost:8080/api/v1/student/byClass/java,
 
 ---------------------------------------------------
-updating data with student
+**updating data with student**
 http://localhost:8080/api/v1/student/updateStudent
 
 {
@@ -37,7 +37,7 @@ http://localhost:8080/api/v1/student/updateStudent
  
 }
 --------------------------------------------------------
-Databse Schema
+**Databse Schema**
 CREATE TABLE `STUDENT`.`student` 
 CHANGE COLUMN `id` `id` INT NOT NULL AUTO_INCREMENT ,
 CHANGE COLUMN `name` `name` VARCHAR(255) NULL DEFAULT NULL ,
